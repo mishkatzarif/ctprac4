@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+}
+
+body {
+  background-image: radial-gradient(blue, white);
+}
+
+.box {
+  width: 308px;
+  height: 200px;
+  background-color: #ff0000;
+  margin: 200px auto 0px;
+  transition: 1.4s;
+  cursor: grab;
+}
+
+.box:hover {
+  transform: rotate(360deg);
+}
+
+.box h2 {
+  font-family: impact;
+  font-size: 33px;
+  color: #0000ff;
+  text-shadow: 0px 0px 10px black;
+  text-align: center;
+}
+
+.box p {
+  font-family: Tangerine;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
